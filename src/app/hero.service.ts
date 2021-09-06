@@ -11,6 +11,7 @@ import { MessageService } from './message.service';
 })
 export class HeroService {
 //  private heroesUrl = `${environment.baseUrl}/heroes`;
+  private heroes = HEROES;
   private heroesUrl = `/api/heroes`;
 
   private httpOptions = {

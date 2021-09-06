@@ -1,5 +1,5 @@
 export const environment = {
-  production: true,
+  production: false,
 //  baseUrl: 'https://toh-api.herokuapp.com',
-  baseUrl: '/api/heroes',
+  baseUrl: '/api',
 };

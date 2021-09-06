@@ -10,9 +10,9 @@ import { MessageService } from './message.service';
   providedIn: 'root',
 })
 export class HeroService {
-//  private heroesUrl = `${environment.baseUrl}/heroes`;
-  private heroes = HEROES;
-  private heroesUrl = `/api/heroes`;
+  private heroesUrl = `${environment.baseUrl}/heroes`;
+
+//  private heroesUrl = `/api/heroes`;
 
   private httpOptions = {
     headers: new HttpHeaders({

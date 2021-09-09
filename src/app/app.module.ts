@@ -2,7 +2,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbAlertModule, NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
@@ -36,6 +36,7 @@ import { SearchInputComponent } from './search-input/search-input.component';
     FormsModule,
     AppRoutingModule,
     NgbCollapseModule,
+    NgbAlertModule,
     HttpClientModule,
     environment.production
       ? []
